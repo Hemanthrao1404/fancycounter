@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       height: 120vh;
+       background-image: radial-gradient(ellipse,#385300,#212900);
+       display: flex;
+       justify-content: center;
+       align-items:center;
+
+
+}
+.container{
+    background-color: yellow;
+    width: 45%;
+    height: 80%;
+    border-radius: 12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fancy-counter{
+
+opacity: 0.6;
+text-transform: uppercase;
+letter-spacing: 1px;
+width: 200px;
+line-height: 0.9;
+text-align: center;
+font-weight: 500;
+font-size: 30px;
+margin-top: 60px;
+
+}
+
+
+.value{
+
+   color: #1d2507;
+   font-size: 150px;
+   font-weight: 500;
+   margin-top: 10px;
+
+}
+button{
+    all: unset;
+}
+
+
+.resetbtn{
+
+cursor: pointer;
+
+}
+.counter__reset-icon{
+
+     opacity: 0.3;
+     font-size: 35px;
+}
+.counter__reset-icon:hover{
+    opacity: 0.7;
+}
+
+.decre_btn{
+
+background-color: #1d2507;
+height: 116px;
+width: 100%;
+margin-top: auto;
+border-top-right-radius: 1px;
+border-top-left-radius: 1px;
+display: flex;
+
+
+
+}
+
+.counter__button{
+    color: #bdfe00;
+    opacity: 0.9;
+    font-size: 40px;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+.counter__button:hover{
+    background-color: #212b06;
+}
+
+.counter__button--decre{
+
+
+}
+
+.counter__button--incre{
+
+    border-left: 1px solid rgba(189,254,0,0.15);
+  
+}
+
+
+.counter__icon{
+
+
+
+}
+
+
+.counter__icon--minus{
+
+
+
+}
+
+
+.counter__icon--plus{
+
+
+
+}
